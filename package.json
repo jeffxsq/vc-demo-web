@@ -1,0 +1,23 @@
+{
+  "name": "vc-demo-cli",
+  "version": "1.0.0",
+  "description": "A CLI demo for issuing and verifying verifiable credentials using Terminal 3 libraries",
+  "main": "src/cli.js",
+  "scripts": {
+    "start": "node src/cli.js"
+  },
+  "dependencies": {
+    "@terminal3/ecdsa_vc": "^latest",
+    "@terminal3/vc_core": "^latest",
+    "@terminal3/bbs_vc": "^latest",
+    "@terminal3/verify_vc": "^latest",
+    "@terminal3/verify_vp": "^latest",
+    "@terminal3/vc_cast": "^latest",
+    "@terminal3/revoke_vc": "^latest",
+    "@terminal3/verify_vc_core": "^latest",
+    "chalk": "^4.1.2",
+    "commander": "^9.4.1"
+  },
+  "author": "Your Name",
+  "license": "MIT"
+}
