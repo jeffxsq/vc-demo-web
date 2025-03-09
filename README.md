@@ -21,10 +21,5 @@ This demo showcases:
 
 1. **Clone the Repository:**
    ```bash
-<<<<<<< HEAD
    git clone https://github.com/jeffxsq/vc-demo-web.git
    cd vc-demo-web
-=======
-   git clone https://github.com/your-username/vc-demo-web.git
-   cd vc-demo-web
->>>>>>> 9d5ee134595de9cf30fd1d0006d81d674cd620f5
