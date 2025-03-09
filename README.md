@@ -23,3 +23,12 @@ This demo showcases:
    ```bash
    git clone https://github.com/jeffxsq/vc-demo-web.git
    cd vc-demo-web
+2. **Install dependencies:**
+   ```bash
+   npm install
+3. **Running the Web App:**
+   1. Start the server
+   ```bash
+   npm start   
+4. Open http://localhost:3000 in your browser. 
+5. Click "Issue Credential" to generate a VC, then select disclosure options to create and verify a VP.
