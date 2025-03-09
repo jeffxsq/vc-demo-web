@@ -1,45 +1,42 @@
 body {
   font-family: Arial, sans-serif;
   margin: 20px;
-}
-.container {
   max-width: 800px;
-  margin: auto;
+  margin: 0 auto;
 }
+
 h1, h2 {
   color: #333;
 }
-section {
+
+form {
   margin: 20px 0;
 }
+
+label {
+  display: block;
+  margin: 5px 0;
+}
+
 button {
   padding: 10px 20px;
   background-color: #007bff;
   color: white;
   border: none;
-  border-radius: 5px;
   cursor: pointer;
 }
+
 button:hover {
   background-color: #0056b3;
 }
-.disclosure-options {
-  margin: 10px 0;
-}
-.disclosure-options label {
-  display: block;
-  margin: 5px 0;
-}
-#field-selection {
-  margin-left: 20px;
-}
-.hidden {
-  display: none;
-}
+
 pre {
-  background-color: #f8f9fa;
-  padding: 15px;
+  background: #f4f4f4;
+  padding: 10px;
   border-radius: 5px;
-  white-space: pre-wrap;
-  word-wrap: break-word;
+  overflow-x: auto;
+}
+
+.result {
+  margin-top: 20px;
 }

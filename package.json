@@ -1,23 +1,26 @@
 {
-  "name": "vc-demo-cli",
+  "name": "vc-demo-web",
   "version": "1.0.0",
-  "description": "A CLI demo for issuing and verifying verifiable credentials using Terminal 3 libraries",
-  "main": "src/cli.js",
+  "description": "A web demo for issuing and verifying verifiable credentials using Terminal 3 libraries",
+  "main": "src/server.js",
   "scripts": {
-    "start": "node src/cli.js"
+    "start": "node src/server.js"
   },
-  "dependencies": {
-    "@terminal3/ecdsa_vc": "^latest",
-    "@terminal3/vc_core": "^latest",
-    "@terminal3/bbs_vc": "^latest",
-    "@terminal3/verify_vc": "^latest",
-    "@terminal3/verify_vp": "^latest",
-    "@terminal3/vc_cast": "^latest",
-    "@terminal3/revoke_vc": "^latest",
-    "@terminal3/verify_vc_core": "^latest",
+  "dependencies": {``
+    "@terminal3/bbs_vc": "^0.2.22",
+    "@terminal3/ecdsa_vc": "^0.1.20",
+    "@terminal3/revoke_vc": "latest",
+    "@terminal3/vc_cast": "latest",
+    "@terminal3/vc_core": "^0.0.23",
+    "@terminal3/verify_vc": "^0.0.24",
+    "@terminal3/verify_vc_core": "latest",
+    "@terminal3/verify_vp": "^0.0.34",
     "chalk": "^4.1.2",
-    "commander": "^9.4.1"
+    "commander": "^9.5.0",
+    "ejs": "^3.1.10",
+    "express": "^4.21.2"
   },
   "author": "Your Name",
-  "license": "MIT"
+  "license": "MIT",
+  "keywords": []
 }

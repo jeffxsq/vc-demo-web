@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>T3 VC Demo</title>
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <h1>Verifiable Credentials Demo</h1>
+
+  <% if (!vc) { %>
+    <form action="/issue" method="post">
+      <button type="submit">Issue Credential</button>
+    </form>
+  <% } else { %>
+    <h2>Issued Verifiable Credential (VC)</h2>
+    <pre><%= JSON.stringify(vc, null, 2) %></pre>
+    <div class="result">Verification: <%= verification ? 'Valid' : 'Invalid' %></div>
+
+    <h2>Selective Disclosure</h2>
+    <form action="/disclose" method="post">
+      <label><input type="checkbox" name="all"> Disclose All Fields</label><br>
+      <label><input type="checkbox" name="fields" value="kycStatus"> KYC Status</label><br>
+      <label><input type="checkbox" name="fields" value="nationality"> Nationality</label><br>
+      <label><input type="checkbox" name="over18"> Prove Over 18</label><br>
+      <button type="submit">Disclose</button>
+    </form>
+
+    <% if (vp) { %>
+      <h2>Verifiable Presentation (VP)</h2>
+      <pre><%= JSON.stringify(vp, null, 2) %></pre>
+      <div class="result">Verification: <%= verification ? 'Valid' : 'Invalid' %></div>
+    <% } %>
+  <% } %>
+</body>
+</html>
