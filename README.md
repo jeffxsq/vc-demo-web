@@ -15,6 +15,7 @@ This demo showcases:
 ## Prerequisites
 
 - Node.js (v16 or higher)
+- Git
 - npm or yarn
 
 ## Setup Instructions
