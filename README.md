@@ -1,6 +1,6 @@
 # Verifiable Credential Demo Web
 
-A simple web application built with Node.js, Express, and Terminal 3 libraries to simulate the issuance, selective disclosure, and verification of verifiable credentials (VCs).
+A simple web application built with Node.js, Express, and mock data to simulate the issuance, selective disclosure, and verification of verifiable credentials (VCs).
 
 ## Overview
 
