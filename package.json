@@ -6,7 +6,7 @@
   "scripts": {
     "start": "node src/server.js"
   },
-  "dependencies": {``
+  "dependencies": {
     "@terminal3/bbs_vc": "latest",
     "@terminal3/ecdsa_vc": "latest",
     "@terminal3/revoke_vc": "latest",
